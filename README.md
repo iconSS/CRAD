@@ -1,13 +1,13 @@
 # CRAD: a matlab program for preprocessing LC-MS datasets.
 The program is capable of batch processing. The number of samples is within the range from 1 to 1000. The parameters "SamNoSt" and "SamNoEn" in CRAD program can be set to include all the sample ID. 
 The number of LC separation conditions is within the range from 1 to 1000. The parameter of "ConNo" in CRAD program can be set to include all the condition ID.
-The raw datasets of LC-MS includes: LC-UV spectra, which should be saved in txt file, the name of such file is SamXXConYY.txt;
-LC-MS spectra which should be saved in matlab file, the name of such file is SamXXConYYP.mat or SamXXConYYN.mat. 
+The raw datasets of LC-MS includes: (1) LC-UV spectra, which should be saved in txt file, the name of such file is SamXXConYY.txt;
+(2) LC-MS spectra which should be saved in matlab file, the name of such file is SamXXConYYP.mat or SamXXConYYN.mat. 
 Here the "P" or "N" indicate the ionization mode in positive mode or negative mode. "XX" indicates the sample ID and "YY" indicates condition ID;
-The Mobile_Phase.txt file, which includes all the gradients adopted in the LC-MS elutions. 
-Generally, the gradient enabled the fasted elution of all the compounds is numbered as the first gradient.
+(3) The Mobile_Phase.txt file, which includes all the gradients adopted in the LC-MS elutions. Generally, the gradient enabled the fasted elution of all the compounds is numbered as the first gradient.
 
-After processing, the TICSSamXXConYYP.txt or TICSSamXXConYYN.txt generated in the root folder can be plotted as the raw TIC and preprocessed TIC.
+After processing: 
+The TICSSamXXConYYP.txt or TICSSamXXConYYN.txt generated in the root folder can be plotted as the raw TIC and preprocessed TIC.
 The XICSSamXXConYYP.txt or XICSSamXXConYYN.txt generated in the root folder can be plotted as the deconvolved XICs.
 The MASSSamXXConYYP.txt or MASSSamXXConYYN.txt generated in the root folder list the m/z values of all the deconvlved XICs.
 
