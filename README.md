@@ -1,9 +1,9 @@
 # CRAD: a matlab program for preprocessing LC-MS datasets.
-The program is capable of batch processing. The number of samples is within the range from 1-1000.
-The number of LC separation conditions is within the range from 1-1000.
-The raw datasets of LC-MS includes: LC-UV spectra, which should be saved in txt file, the name of such file is SamXXConYY.txt
+The program is capable of batch processing. The number of samples is within the range from 1 to 1000.
+The number of LC separation conditions is within the range from 1 to 1000.
+The raw datasets of LC-MS includes: LC-UV spectra, which should be saved in txt file, the name of such file is SamXXConYY.txt;
 LC-MS spectra which should be saved in matlab file, the name of such file is SamXXConYYP.mat or SamXXConYYN.mat. 
-Here the "P" or "N" indicate the ionization mode in positive mode or negative mode. "XX" indicates the sample ID and "YY" indicates condition ID
+Here the "P" or "N" indicate the ionization mode in positive mode or negative mode. "XX" indicates the sample ID and "YY" indicates condition ID;
 The Mobile_Phase.txt file, which includes all the gradients adopted in the LC-MS elutions. 
 Generally, the gradient enabled the fasted elution of all the compounds is numbered as the first gradient.
 
